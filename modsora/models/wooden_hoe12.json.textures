@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wooden_hoe12_atlas": "wooden_hoe12_atlas"
+      },
+      "name": "default"
+    }
+  }
+}

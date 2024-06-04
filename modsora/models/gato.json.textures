@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gato": "gato"
+      },
+      "name": "default"
+    }
+  }
+}

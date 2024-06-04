@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "stone_axe11"
+      },
+      "name": "default"
+    }
+  }
+}

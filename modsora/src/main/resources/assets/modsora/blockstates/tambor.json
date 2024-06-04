@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:tambor"
+    },
+    "facing=north": {
+      "model": "modsora:tambor"
+    },
+    "facing=east": {
+      "model": "modsora:tambor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:tambor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:tambor",
+      "y": 270
+    }
+  }
+}

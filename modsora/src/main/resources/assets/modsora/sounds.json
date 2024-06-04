@@ -1,0 +1,191 @@
+{
+  "bardo": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "modsora:mix_10m05s-_audio-joiner.com_",
+        "stream": true
+      }
+    ]
+  },
+  "ost1": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:onlymp3",
+        "stream": false
+      }
+    ]
+  },
+  "ost2": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:onlymp3.to-naruto-jiraiya-s-theme-extended-hks_w22lbes-192k-1693258884",
+        "stream": false
+      }
+    ]
+  },
+  "ost3": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:onlymp3.to-neji-theme-song-obdr45wmyzk-192k-1693258905",
+        "stream": false
+      }
+    ]
+  },
+  "ost4": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:tomp3.cc-naruto-shippuden-ost-douten-heaven-shaking-event-hq_1",
+        "stream": false
+      }
+    ]
+  },
+  "ost5": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:onlymp3.to-naruto-ost-my-name-extended-jvyvgv2js4a-192k-1693258971",
+        "stream": false
+      }
+    ]
+  },
+  "ost6": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:tomp3.cc-naruto-sarutobis-themeextended",
+        "stream": false
+      }
+    ]
+  },
+  "ost7": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:tomp3.cc-naruto-shippuden-soundtrack-senya-original-itachis-theme-song-",
+        "stream": false
+      }
+    ]
+  },
+  "ost8": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:tomp3.cc-ripple-naruto-ost-3",
+        "stream": false
+      }
+    ]
+  },
+  "ost9": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:tomp3.cc-naruto-shippuden-ost-ii-rising-dragon",
+        "stream": false
+      }
+    ]
+  },
+  "tayuya": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:tomp3.cc_-_untitled_video",
+        "stream": false
+      }
+    ]
+  },
+  "jiraiya": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:el_iouu_de_jiraiya",
+        "stream": false
+      }
+    ]
+  },
+  "compra": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:el_shiummm_de_la_cuando_compras",
+        "stream": false
+      }
+    ]
+  },
+  "tlin": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:el_tlin",
+        "stream": false
+      }
+    ]
+  },
+  "perro": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:perro_2",
+        "stream": false
+      }
+    ]
+  },
+  "teletransportacion": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:teletransportacion_de_hirashin_mejorada",
+        "stream": false
+      }
+    ]
+  },
+  "tum": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:el_tum_bajo",
+        "stream": false
+      }
+    ]
+  },
+  "tumagudo": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:el_tum_agudo",
+        "stream": false
+      }
+    ]
+  },
+  "abrirpergamino": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:abriendo_pergamino",
+        "stream": false
+      }
+    ]
+  },
+  "gatsuga": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:x2mate.com_-_gatsuga_320_kbps",
+        "stream": false
+      }
+    ]
+  },
+  "tsuga": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "modsora:x2mate.com_-_kishuninpo_320_kbps",
+        "stream": false
+      }
+    ]
+  }
+}

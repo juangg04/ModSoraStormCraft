@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modsora:blocks/crystakore",
+    "up": "modsora:blocks/crystakore",
+    "north": "modsora:blocks/crystakore",
+    "east": "modsora:blocks/crystakore",
+    "south": "modsora:blocks/crystakore",
+    "west": "modsora:blocks/crystakore",
+    "particle": "modsora:blocks/crystakore"
+  }
+}

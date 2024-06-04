@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "katana_1",
+        "1": "inosuke"
+      },
+      "name": "default"
+    }
+  }
+}

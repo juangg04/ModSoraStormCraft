@@ -1,0 +1,57 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ritual",
+    "enableBody": true,
+    "textureBody": "ritual",
+    "enableLeggings": false,
+    "textureLeggings": "ritual",
+    "enableBoots": true,
+    "textureBoots": "ritual",
+    "onBodyTick": {
+      "name": "TransfHidanBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ModSora"
+    },
+    "armorTextureFile": "hidan_",
+    "helmetName": "Transf Hidan Helmet",
+    "bodyName": "Transf Hidan Body",
+    "leggingsName": "Transf Hidan Leggings",
+    "bootsName": "Transf Hidan Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 0,
+    "damageValueHelmet": 15,
+    "damageValueBody": 20,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 15,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

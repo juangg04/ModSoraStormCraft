@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "paper_helmet",
+    "enableBody": true,
+    "textureBody": "paper_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "paper_leggings",
+    "enableBoots": true,
+    "textureBoots": "paper_boots",
+    "creativeTab": {
+      "value": "CUSTOM:ModSora"
+    },
+    "armorTextureFile": "paper_",
+    "helmetName": "Storm Armor 1 Helmet",
+    "bodyName": "Storm Armor 1 Body",
+    "leggingsName": "Storm Armor 1 Leggings",
+    "bootsName": "Storm Armor 1 Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 10,
+    "damageValueBody": 15,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 8,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:StormTier1"
+      }
+    ]
+  }
+}

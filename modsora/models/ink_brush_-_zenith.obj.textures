@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "MI_WEP_Brush": ""
+      },
+      "name": "default"
+    }
+  }
+}

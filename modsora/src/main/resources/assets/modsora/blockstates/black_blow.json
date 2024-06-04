@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:black_blow"
+    },
+    "facing=north": {
+      "model": "modsora:black_blow"
+    },
+    "facing=east": {
+      "model": "modsora:black_blow",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:black_blow",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:black_blow",
+      "y": 270
+    }
+  }
+}

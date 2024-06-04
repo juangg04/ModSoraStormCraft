@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:lampara"
+    },
+    "facing=north": {
+      "model": "modsora:lampara"
+    },
+    "facing=east": {
+      "model": "modsora:lampara",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:lampara",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:lampara",
+      "y": 270
+    }
+  }
+}

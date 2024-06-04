@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "yata_24",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

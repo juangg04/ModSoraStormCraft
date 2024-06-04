@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tanjirokatana",
+        "1": "tanjirokatana",
+        "2": "tanjirokatana",
+        "3": "tanjirokatana",
+        "4": "tanjirokatana",
+        "missing": "tanjirokatana"
+      },
+      "name": "default"
+    }
+  }
+}

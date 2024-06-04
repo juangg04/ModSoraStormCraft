@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:cofre_dinero"
+    },
+    "facing=north": {
+      "model": "modsora:cofre_dinero"
+    },
+    "facing=east": {
+      "model": "modsora:cofre_dinero",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:cofre_dinero",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:cofre_dinero",
+      "y": 270
+    }
+  }
+}

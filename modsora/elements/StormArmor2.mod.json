@@ -1,0 +1,58 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "nether_helmet",
+    "enableBody": true,
+    "textureBody": "nether_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "nether_leggings",
+    "enableBoots": true,
+    "textureBoots": "nether_boots",
+    "creativeTab": {
+      "value": "CUSTOM:ModSora"
+    },
+    "armorTextureFile": "nether_",
+    "helmetName": "Storm Armor 2 Helmet",
+    "bodyName": "Storm Armor 2 Body",
+    "leggingsName": "Storm Armor 2 Leggings",
+    "bootsName": "Storm Armor 2 Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 1000,
+    "damageValueHelmet": 20,
+    "damageValueBody": 25,
+    "damageValueLeggings": 22,
+    "damageValueBoots": 16,
+    "enchantability": 9,
+    "toughness": 2.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:StormTier2"
+      }
+    ]
+  }
+}

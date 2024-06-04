@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "golden_axe5"
+      },
+      "name": "default"
+    }
+  }
+}

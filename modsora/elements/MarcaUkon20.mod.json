@@ -1,0 +1,57 @@
+{
+  "_fv": 18,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "marca1",
+    "enableBody": false,
+    "textureBody": "cursemark",
+    "enableLeggings": false,
+    "textureLeggings": "cursemark",
+    "enableBoots": false,
+    "textureBoots": "cursemark",
+    "onHelmetTick": {
+      "name": "MarcaHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ModSora"
+    },
+    "armorTextureFile": "cursemarkukon1_",
+    "helmetName": "Marca Ukon 2 0 Helmet",
+    "bodyName": "Marca Ukon 2 0 Body",
+    "leggingsName": "Marca Ukon 2 0 Leggings",
+    "bootsName": "Marca Ukon 2 0 Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 0,
+    "damageValueHelmet": 20,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}

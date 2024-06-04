@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:crate"
+    },
+    "facing=north": {
+      "model": "modsora:crate"
+    },
+    "facing=east": {
+      "model": "modsora:crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:crate",
+      "y": 270
+    }
+  }
+}

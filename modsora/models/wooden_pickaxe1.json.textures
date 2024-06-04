@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "gauntlet": "gauntlet",
+        "screen_blue": "screen_yellow"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "kouken_animation2_special": "kouken4",
+        "kouken_special": "kouken_special",
+        "kouken_animation1_special": "kouken3"
+      },
+      "name": "default"
+    }
+  }
+}

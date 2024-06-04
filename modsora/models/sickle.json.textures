@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sik",
+        "1": "guadanaanimacion"
+      },
+      "name": "default"
+    }
+  }
+}

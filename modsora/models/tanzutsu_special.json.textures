@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "tanzutsu_animation_special": "assahbirojo",
+        "tanzutsu_special": "tanzutsu_nature"
+      },
+      "name": "default"
+    }
+  }
+}

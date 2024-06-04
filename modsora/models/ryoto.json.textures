@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "ryoto": "ryoto"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "kouken_animation1_character": "kouken1",
+        "kouken_animation2_character": "kouken2",
+        "kouken_character": "kouken_character"
+      },
+      "name": "default"
+    }
+  }
+}

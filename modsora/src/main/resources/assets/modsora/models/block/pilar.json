@@ -1,0 +1,8 @@
+{
+  "parent": "modsora:custom/jf1_pillar_2",
+  "textures": {
+    "all": "modsora:blocks/pillar_2",
+    "particle": "modsora:blocks/pillar_2",
+    "0": "modsora:blocks/pillar_2"
+  }
+}

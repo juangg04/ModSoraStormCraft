@@ -1,0 +1,9 @@
+{
+  "parent": "modsora:custom/crateee",
+  "textures": {
+    "all": "modsora:blocks/chesttex",
+    "particle": "modsora:blocks/chesttex",
+    "0": "modsora:blocks/chesttex",
+    "missing": "modsora:blocks/"
+  }
+}

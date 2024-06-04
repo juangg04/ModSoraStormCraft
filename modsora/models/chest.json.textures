@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "ded",
+        "1": "chestanimacion",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

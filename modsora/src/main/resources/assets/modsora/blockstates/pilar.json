@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:pilar"
+    },
+    "facing=north": {
+      "model": "modsora:pilar"
+    },
+    "facing=east": {
+      "model": "modsora:pilar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:pilar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:pilar",
+      "y": 270
+    }
+  }
+}

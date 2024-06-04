@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "spectral_character_animated": "verde",
+        "spectral_character": "spectral_utility"
+      },
+      "name": "default"
+    }
+  }
+}

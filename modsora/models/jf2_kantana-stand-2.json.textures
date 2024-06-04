@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "bas_jf_kantana-stand-2"
+      },
+      "name": "default"
+    }
+  }
+}

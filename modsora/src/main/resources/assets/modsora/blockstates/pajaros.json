@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:pajaros"
+    },
+    "facing=north": {
+      "model": "modsora:pajaros"
+    },
+    "facing=east": {
+      "model": "modsora:pajaros",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:pajaros",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:pajaros",
+      "y": 270
+    }
+  }
+}

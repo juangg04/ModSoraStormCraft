@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "obukh",
+        "4": "liezviie_e",
+        "5": "obkladka",
+        "6": "oplietka",
+        "7": "osnova",
+        "8": "gharda"
+      },
+      "name": "default"
+    }
+  }
+}

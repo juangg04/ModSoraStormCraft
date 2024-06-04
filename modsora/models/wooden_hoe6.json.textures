@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "texture": "wooden_hoe6_atlas"
+      },
+      "name": "default"
+    }
+  }
+}

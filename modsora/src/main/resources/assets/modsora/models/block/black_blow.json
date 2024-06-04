@@ -1,0 +1,8 @@
+{
+  "parent": "modsora:custom/jf2_black-blow",
+  "textures": {
+    "all": "modsora:blocks/bas_jf_black-blow",
+    "particle": "modsora:blocks/bas_jf_black-blow",
+    "1": "modsora:blocks/bas_jf_black-blow"
+  }
+}

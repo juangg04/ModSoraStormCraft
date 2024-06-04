@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "giant_scroll",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

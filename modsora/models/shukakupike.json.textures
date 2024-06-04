@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "shukakupike": "shukakupike"
+      },
+      "name": "default"
+    }
+  }
+}

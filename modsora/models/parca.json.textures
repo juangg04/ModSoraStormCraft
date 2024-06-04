@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cara_parca",
+        "1": "parca_3",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

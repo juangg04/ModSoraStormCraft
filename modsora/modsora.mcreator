@@ -1,0 +1,3814 @@
+{
+  "id_map": {
+    "ENTITY": 27
+  },
+  "mod_elements": [
+    {
+      "name": "CurseMark",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_mark"
+    },
+    {
+      "name": "InvocacionToruga",
+      "type": "mob",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1,
+        "1": 2
+      },
+      "registry_name": "invocacion_toruga"
+    },
+    {
+      "name": "Tsuchigumo",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tsuchigumo"
+    },
+    {
+      "name": "Sorarmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sorarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Ojochinoike",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ojochinoike",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "Asura",
+      "type": "armor",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asura",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "IzanagiItemInHandTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "izanagi_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Izanagi",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "izanagi"
+    },
+    {
+      "name": "Kamiton",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kamiton"
+    },
+    {
+      "name": "Shoton",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shoton"
+    },
+    {
+      "name": "Koton",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "koton"
+    },
+    {
+      "name": "Matatabi",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "matatabi"
+    },
+    {
+      "name": "Shukaku",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shukaku"
+    },
+    {
+      "name": "Saiken",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saiken"
+    },
+    {
+      "name": "Isobu",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "isobu"
+    },
+    {
+      "name": "SonGoku",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "son_goku"
+    },
+    {
+      "name": "Kokuo",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kokuo"
+    },
+    {
+      "name": "Chomei",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chomei"
+    },
+    {
+      "name": "Achibi",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "achibi"
+    },
+    {
+      "name": "Kurama",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kurama"
+    },
+    {
+      "name": "ModSora",
+      "type": "tab",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mod_sora"
+    },
+    {
+      "name": "Icon",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "icon"
+    },
+    {
+      "name": "DarkRelease",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_release"
+    },
+    {
+      "name": "RayoScroll",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rayo_scroll"
+    },
+    {
+      "name": "FuegoScroll",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuego_scroll"
+    },
+    {
+      "name": "TierraScroll",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tierra_scroll"
+    },
+    {
+      "name": "VientoScroll",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viento_scroll"
+    },
+    {
+      "name": "AguaScroll",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "agua_scroll"
+    },
+    {
+      "name": "JutsusPergamino",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jutsus_pergamino"
+    },
+    {
+      "name": "Panza",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "panza"
+    },
+    {
+      "name": "Bashosen",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bashosen"
+    },
+    {
+      "name": "VelocidadRelease",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "velocidad_release"
+    },
+    {
+      "name": "FlautaDeTayuya",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flauta_de_tayuya"
+    },
+    {
+      "name": "XP",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp"
+    },
+    {
+      "name": "Aburame",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aburame"
+    },
+    {
+      "name": "Nara",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nara"
+    },
+    {
+      "name": "Akimichi",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akimichi"
+    },
+    {
+      "name": "Yamanaka",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yamanaka"
+    },
+    {
+      "name": "MarcaTierra20",
+      "type": "armor",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_tierra_20",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MarcaTierra40",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_tierra_40",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MarcaCielo20",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_cielo_20",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MarcaTayuya20",
+      "type": "armor",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_tayuya_20",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MarcaKidomaru20",
+      "type": "armor",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_kidomaru_20",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MarcaUkon20",
+      "type": "armor",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_ukon_20",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MarcaJirobo20",
+      "type": "armor",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_jirobo_20",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      }
+    },
+    {
+      "name": "MarcaKidomaru40",
+      "type": "armor",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_kidomaru_40",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "SabioSapo",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sabio_sapo"
+    },
+    {
+      "name": "SabioSerpiente",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sabio_serpiente"
+    },
+    {
+      "name": "SabioBabosa",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sabio_babosa"
+    },
+    {
+      "name": "Clanryu",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clanryu"
+    },
+    {
+      "name": "EspadaDragon",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espada_dragon"
+    },
+    {
+      "name": "Crate",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate"
+    },
+    {
+      "name": "Key",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key"
+    },
+    {
+      "name": "KatanaNegra",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_negra"
+    },
+    {
+      "name": "KatanaAzul",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_azul"
+    },
+    {
+      "name": "KatanaVerde",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_verde"
+    },
+    {
+      "name": "KatanaNaranja",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_naranja"
+    },
+    {
+      "name": "KatanaRoja",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_roja"
+    },
+    {
+      "name": "KatanaAmarilla",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_amarilla"
+    },
+    {
+      "name": "KatanaStand",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_stand"
+    },
+    {
+      "name": "KatanaStand2",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_stand_2"
+    },
+    {
+      "name": "Altar",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "altar"
+    },
+    {
+      "name": "Pilar",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pilar"
+    },
+    {
+      "name": "Tambor",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tambor"
+    },
+    {
+      "name": "Pajaros",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pajaros"
+    },
+    {
+      "name": "BlackBlow",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "black_blow"
+    },
+    {
+      "name": "CofreDinero",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cofre_dinero"
+    },
+    {
+      "name": "Lampara",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lampara"
+    },
+    {
+      "name": "EfectoKatanaRoja",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "efecto_katana_roja",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KatanaNegraToolInHandTick",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_negra_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KatanaAzulToolInHandTick",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_azul_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KatanaVerdeToolInHandTick",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_verde_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KatanaNaranjaToolInHandTick",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_naranja_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KatanaAmarillaToolInHandTick",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_amarilla_tool_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnemoSpear",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anemo_spear"
+    },
+    {
+      "name": "LightningSpear",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_spear"
+    },
+    {
+      "name": "PuaCelestial",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pua_celestial"
+    },
+    {
+      "name": "FireSpear",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_spear"
+    },
+    {
+      "name": "KeyPase1",
+      "type": "item",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_pase_1"
+    },
+    {
+      "name": "CratePase1",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crate_pase_1"
+    },
+    {
+      "name": "EspadadPase1",
+      "type": "tool",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espadad_pase_1"
+    },
+    {
+      "name": "DagaPase1",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "daga_pase_1"
+    },
+    {
+      "name": "GuadanaPase1",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guadana_pase_1"
+    },
+    {
+      "name": "Konoha",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "konoha"
+    },
+    {
+      "name": "Suna",
+      "type": "item",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "suna"
+    },
+    {
+      "name": "Iwa",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iwa"
+    },
+    {
+      "name": "Kumo",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kumo"
+    },
+    {
+      "name": "Kiri",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kiri"
+    },
+    {
+      "name": "Amegakure",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amegakure"
+    },
+    {
+      "name": "ClanHidan",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_hidan"
+    },
+    {
+      "name": "Anas",
+      "type": "armor",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anas",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "AnasBodyTickEvent",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anas_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "XPRightClickedInAir",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "xp_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rika",
+      "type": "mob",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 12,
+        "1": 13
+      },
+      "registry_name": "rika"
+    },
+    {
+      "name": "TransfHidan",
+      "type": "armor",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transf_hidan",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "TransfHidanBodyTickEvent",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "transf_hidan_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EspadadeZanma",
+      "type": "tool",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espadade_zanma"
+    },
+    {
+      "name": "Battlepass",
+      "type": "item",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "battlepass"
+    },
+    {
+      "name": "RegaloRojo1",
+      "type": "item",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regalo_rojo_1"
+    },
+    {
+      "name": "RegaloRojo2",
+      "type": "item",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regalo_rojo_2"
+    },
+    {
+      "name": "RegaloAzul1",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regalo_azul_1"
+    },
+    {
+      "name": "RegaloAzul2",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "regalo_azul_2"
+    },
+    {
+      "name": "Mazo",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mazo"
+    },
+    {
+      "name": "Duel",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "duel"
+    },
+    {
+      "name": "Pergamino",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pergamino"
+    },
+    {
+      "name": "Warp",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "warp"
+    },
+    {
+      "name": "Dungeon",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeon"
+    },
+    {
+      "name": "Aldeas",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "aldeas"
+    },
+    {
+      "name": "Akatsuki",
+      "type": "item",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akatsuki"
+    },
+    {
+      "name": "StormCraft",
+      "type": "item",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_craft"
+    },
+    {
+      "name": "Katana1",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_1"
+    },
+    {
+      "name": "Katana2",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_2"
+    },
+    {
+      "name": "Katana3",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_3"
+    },
+    {
+      "name": "Katana4",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_4"
+    },
+    {
+      "name": "Katana5",
+      "type": "tool",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_5"
+    },
+    {
+      "name": "Katana6",
+      "type": "tool",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_6"
+    },
+    {
+      "name": "Katana8",
+      "type": "tool",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_8"
+    },
+    {
+      "name": "Katana9",
+      "type": "tool",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_9"
+    },
+    {
+      "name": "Katana10",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_10"
+    },
+    {
+      "name": "Katana11",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katana_11"
+    },
+    {
+      "name": "Atras",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "atras"
+    },
+    {
+      "name": "Shirogane",
+      "type": "item",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shirogane"
+    },
+    {
+      "name": "MascaraXiao",
+      "type": "item",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mascara_xiao"
+    },
+    {
+      "name": "GorroHutao",
+      "type": "item",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gorro_hutao"
+    },
+    {
+      "name": "MarcaJirobo40",
+      "type": "armor",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_jirobo_40",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MarcaTayuya40",
+      "type": "armor",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_tayuya_40",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MarcaCielo40",
+      "type": "armor",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_cielo_40",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MarcaUkon40",
+      "type": "armor",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_ukon_40",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Genin",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genin"
+    },
+    {
+      "name": "Chunin",
+      "type": "item",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chunin"
+    },
+    {
+      "name": "Jounin",
+      "type": "item",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jounin"
+    },
+    {
+      "name": "Viento",
+      "type": "item",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viento"
+    },
+    {
+      "name": "Roca",
+      "type": "item",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "roca"
+    },
+    {
+      "name": "Rayo",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rayo"
+    },
+    {
+      "name": "Agua",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "agua"
+    },
+    {
+      "name": "Fuego",
+      "type": "item",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fuego"
+    },
+    {
+      "name": "Mejora",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mejora"
+    },
+    {
+      "name": "Lee",
+      "type": "item",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lee"
+    },
+    {
+      "name": "Medico",
+      "type": "item",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medico"
+    },
+    {
+      "name": "Scroll",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "scroll"
+    },
+    {
+      "name": "ArcoKidomaru",
+      "type": "item",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arco_kidomaru"
+    },
+    {
+      "name": "AkimichiEffect",
+      "type": "potion",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akimichi_effect"
+    },
+    {
+      "name": "JashinEffect",
+      "type": "potion",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jashin_effect"
+    },
+    {
+      "name": "MarcaEffect",
+      "type": "potion",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_effect"
+    },
+    {
+      "name": "AkimichiTick",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "akimichi_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MarcaHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marca_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "C2",
+      "type": "mob",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 14,
+        "1": 15
+      },
+      "registry_name": "c_2"
+    },
+    {
+      "name": "Panda",
+      "type": "mob",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 16,
+        "1": 17
+      },
+      "registry_name": "panda"
+    },
+    {
+      "name": "Pajaro",
+      "type": "mob",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 18,
+        "1": 19
+      },
+      "registry_name": "pajaro"
+    },
+    {
+      "name": "Toro",
+      "type": "mob",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 20,
+        "1": 21
+      },
+      "registry_name": "toro"
+    },
+    {
+      "name": "Logros",
+      "type": "item",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logros"
+    },
+    {
+      "name": "ArenaMaestraI",
+      "type": "item",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arena_maestra_i"
+    },
+    {
+      "name": "ArenaMaestrall",
+      "type": "item",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "arena_maestrall"
+    },
+    {
+      "name": "VigiadelTiempo",
+      "type": "item",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vigiadel_tiempo"
+    },
+    {
+      "name": "CosechadordeAlmas",
+      "type": "item",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cosechadorde_almas"
+    },
+    {
+      "name": "Sabiduriaasegurada",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sabiduriaasegurada"
+    },
+    {
+      "name": "ElitedelPasedeBatalla",
+      "type": "item",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "elitedel_pasede_batalla"
+    },
+    {
+      "name": "ViajerodelMundoNinja",
+      "type": "item",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "viajerodel_mundo_ninja"
+    },
+    {
+      "name": "PrincipiosdelarteNinja",
+      "type": "item",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "principiosdelarte_ninja"
+    },
+    {
+      "name": "SombraVeloz",
+      "type": "item",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sombra_veloz"
+    },
+    {
+      "name": "EstudianteEjemplar",
+      "type": "item",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "estudiante_ejemplar"
+    },
+    {
+      "name": "DemonioYAngel",
+      "type": "item",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "demonio_y_angel"
+    },
+    {
+      "name": "MentedeGenio",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mentede_genio"
+    },
+    {
+      "name": "SendadelSabio",
+      "type": "item",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sendadel_sabio"
+    },
+    {
+      "name": "AlianzaAncestral",
+      "type": "item",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alianza_ancestral"
+    },
+    {
+      "name": "DiosdelCombate",
+      "type": "item",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diosdel_combate"
+    },
+    {
+      "name": "CazadordeBestias",
+      "type": "item",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cazadorde_bestias"
+    },
+    {
+      "name": "RelampagoAmarillo",
+      "type": "item",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "relampago_amarillo"
+    },
+    {
+      "name": "MascaraDesgarrada",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mascara_desgarrada"
+    },
+    {
+      "name": "EternosCompaneros",
+      "type": "item",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "eternos_companeros"
+    },
+    {
+      "name": "LiderEntreKages",
+      "type": "item",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lider_entre_kages"
+    },
+    {
+      "name": "SoraCoin",
+      "type": "item",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sora_coin"
+    },
+    {
+      "name": "UltimateTsuchikage",
+      "type": "item",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_tsuchikage"
+    },
+    {
+      "name": "UltimateHokage",
+      "type": "item",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_hokage"
+    },
+    {
+      "name": "UltimateMizukage",
+      "type": "item",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_mizukage"
+    },
+    {
+      "name": "UltimateRaikage",
+      "type": "item",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_raikage"
+    },
+    {
+      "name": "UltimateKazekage",
+      "type": "item",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ultimate_kazekage"
+    },
+    {
+      "name": "AcidoRelease",
+      "type": "item",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acido_release"
+    },
+    {
+      "name": "TifonRelease",
+      "type": "item",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tifon_release"
+    },
+    {
+      "name": "Cosmeticos",
+      "type": "item",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cosmeticos"
+    },
+    {
+      "name": "CambioElemento",
+      "type": "item",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cambio_elemento"
+    },
+    {
+      "name": "CambioKekkei",
+      "type": "item",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cambio_kekkei"
+    },
+    {
+      "name": "LibroKakashi",
+      "type": "item",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "libro_kakashi"
+    },
+    {
+      "name": "Shinigami",
+      "type": "item",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shinigami"
+    },
+    {
+      "name": "ClonAceite",
+      "type": "mob",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 22,
+        "1": 23
+      },
+      "registry_name": "clon_aceite"
+    },
+    {
+      "name": "LogroProcedure",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logro_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CambioDeClan",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cambio_de_clan"
+    },
+    {
+      "name": "TalismanYuki",
+      "type": "item",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_yuki"
+    },
+    {
+      "name": "TalismanSenju",
+      "type": "item",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_senju"
+    },
+    {
+      "name": "AmuletoPrimerHokage",
+      "type": "item",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "amuleto_primer_hokage"
+    },
+    {
+      "name": "TalismanGaara",
+      "type": "item",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_gaara"
+    },
+    {
+      "name": "TalismanYotsuki",
+      "type": "item",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_yotsuki"
+    },
+    {
+      "name": "TalismanMaldito",
+      "type": "item",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_maldito"
+    },
+    {
+      "name": "Talisman1",
+      "type": "item",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_1"
+    },
+    {
+      "name": "Talisman2",
+      "type": "item",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_2"
+    },
+    {
+      "name": "Talisman3",
+      "type": "item",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_3"
+    },
+    {
+      "name": "Talisman4",
+      "type": "item",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_4"
+    },
+    {
+      "name": "Talisman3ItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_3_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Talisman2ItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "talisman_2_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AsuraIcon",
+      "type": "item",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asura_icon"
+    },
+    {
+      "name": "IndraIcon",
+      "type": "item",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "indra_icon"
+    },
+    {
+      "name": "Gamabunta",
+      "type": "item",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gamabunta"
+    },
+    {
+      "name": "Manda",
+      "type": "item",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "manda"
+    },
+    {
+      "name": "Katsuyu",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katsuyu"
+    },
+    {
+      "name": "KeyStorm",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_storm"
+    },
+    {
+      "name": "KeyMitica",
+      "type": "item",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_mitica"
+    },
+    {
+      "name": "KeyLegendaria",
+      "type": "item",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_legendaria"
+    },
+    {
+      "name": "KeyProdigio",
+      "type": "item",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_prodigio"
+    },
+    {
+      "name": "KeyVote",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_vote"
+    },
+    {
+      "name": "KeyParty",
+      "type": "item",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_party"
+    },
+    {
+      "name": "KeyKekkei",
+      "type": "item",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_kekkei"
+    },
+    {
+      "name": "KeyArmas",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_armas"
+    },
+    {
+      "name": "KeySenjutsu",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_senjutsu"
+    },
+    {
+      "name": "KeyClan",
+      "type": "item",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_clan"
+    },
+    {
+      "name": "KeyAldea",
+      "type": "item",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_aldea"
+    },
+    {
+      "name": "KeyElementos",
+      "type": "item",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "key_elementos"
+    },
+    {
+      "name": "StormArmor1",
+      "type": "armor",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_armor_1",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StormArmor2",
+      "type": "armor",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_armor_2",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StormTier1",
+      "type": "item",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_tier_1"
+    },
+    {
+      "name": "StormTier2",
+      "type": "item",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_tier_2"
+    },
+    {
+      "name": "StormTier3",
+      "type": "item",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_tier_3"
+    },
+    {
+      "name": "StormMineral1",
+      "type": "block",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_mineral_1"
+    },
+    {
+      "name": "StormMineral2",
+      "type": "block",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_mineral_2"
+    },
+    {
+      "name": "StormMineral3",
+      "type": "block",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "storm_mineral_3"
+    },
+    {
+      "name": "ArmorVIp",
+      "type": "armor",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armor_v_ip",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "KarmaBoruto",
+      "type": "item",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_boruto"
+    },
+    {
+      "name": "KarmaKawaki",
+      "type": "item",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "karma_kawaki"
+    },
+    {
+      "name": "Boruto",
+      "type": "item",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boruto"
+    },
+    {
+      "name": "Kawaki",
+      "type": "item",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kawaki"
+    },
+    {
+      "name": "BorutoArmor",
+      "type": "armor",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boruto_armor",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "KawakiArmor",
+      "type": "armor",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kawaki_armor",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "BorutoArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boruto_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KawakiArmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kawaki_armor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Uzumaki",
+      "type": "item",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "uzumaki"
+    },
+    {
+      "name": "Interrogacion",
+      "type": "item",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "interrogacion"
+    },
+    {
+      "name": "RecargarChakra",
+      "type": "item",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "recargar_chakra"
+    },
+    {
+      "name": "ClanHyuga",
+      "type": "item",
+      "sortid": 260,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_hyuga"
+    },
+    {
+      "name": "ClanUchiha",
+      "type": "item",
+      "sortid": 261,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_uchiha"
+    },
+    {
+      "name": "ClanSenju",
+      "type": "item",
+      "sortid": 262,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_senju"
+    },
+    {
+      "name": "ClanKaguya",
+      "type": "item",
+      "sortid": 263,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_kaguya"
+    },
+    {
+      "name": "Hoshigaki",
+      "type": "item",
+      "sortid": 264,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hoshigaki"
+    },
+    {
+      "name": "ClanIburi",
+      "type": "item",
+      "sortid": 265,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_iburi"
+    },
+    {
+      "name": "ClanKamizuru",
+      "type": "item",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clan_kamizuru"
+    },
+    {
+      "name": "Logronaruto",
+      "type": "item",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logronaruto"
+    },
+    {
+      "name": "Logroisshiki",
+      "type": "item",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "logroisshiki"
+    },
+    {
+      "name": "DragonBarro",
+      "type": "item",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dragon_barro"
+    },
+    {
+      "name": "BodyBlow",
+      "type": "item",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "body_blow"
+    },
+    {
+      "name": "Bisturi",
+      "type": "item",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bisturi"
+    },
+    {
+      "name": "Sunshin",
+      "type": "item",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sunshin"
+    },
+    {
+      "name": "Flamelight",
+      "type": "item",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flamelight"
+    },
+    {
+      "name": "Greatbreach",
+      "type": "item",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "greatbreach"
+    },
+    {
+      "name": "Jiongu",
+      "type": "item",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jiongu"
+    },
+    {
+      "name": "JutsuKakuzu",
+      "type": "item",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jutsu_kakuzu"
+    },
+    {
+      "name": "ShurikenFuego",
+      "type": "item",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shuriken_fuego"
+    },
+    {
+      "name": "Sai",
+      "type": "item",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sai"
+    },
+    {
+      "name": "ClonElemental",
+      "type": "item",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "clon_elemental"
+    },
+    {
+      "name": "NamikazeUnico",
+      "type": "item",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "namikaze_unico"
+    },
+    {
+      "name": "Shuriken",
+      "type": "item",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shuriken"
+    },
+    {
+      "name": "Kabuto",
+      "type": "item",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kabuto"
+    },
+    {
+      "name": "SunshinDodge",
+      "type": "item",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sunshin_dodge"
+    },
+    {
+      "name": "Waterpilar",
+      "type": "item",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "waterpilar"
+    },
+    {
+      "name": "Yata",
+      "type": "item",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "yata"
+    },
+    {
+      "name": "PegaminoEsoterico",
+      "type": "item",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pegamino_esoterico"
+    },
+    {
+      "name": "PergaminoGigante",
+      "type": "item",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pergamino_gigante"
+    },
+    {
+      "name": "PildoraVerde",
+      "type": "item",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pildora_verde"
+    },
+    {
+      "name": "PildoraRoja",
+      "type": "item",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pildora_roja"
+    },
+    {
+      "name": "PildoraAmarilla",
+      "type": "item",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pildora_amarilla"
+    },
+    {
+      "name": "Kuramacoin",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kuramacoin"
+    },
+    {
+      "name": "Shichiseiken",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shichiseiken"
+    },
+    {
+      "name": "Mision1",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mision_1"
+    },
+    {
+      "name": "Mision2",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mision_2"
+    },
+    {
+      "name": "Mision3",
+      "type": "item",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mision_3"
+    },
+    {
+      "name": "Mision4",
+      "type": "item",
+      "sortid": 297,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mision_4"
+    },
+    {
+      "name": "Mision5",
+      "type": "item",
+      "sortid": 298,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mision_5"
+    },
+    {
+      "name": "Taijutsu",
+      "type": "item",
+      "sortid": 299,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "taijutsu"
+    },
+    {
+      "name": "Ninjutsu",
+      "type": "item",
+      "sortid": 300,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ninjutsu"
+    },
+    {
+      "name": "Genjutsu",
+      "type": "item",
+      "sortid": 301,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "genjutsu"
+    },
+    {
+      "name": "Noseeee",
+      "type": "item",
+      "sortid": 302,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noseeee"
+    },
+    {
+      "name": "GuanteleteAzul",
+      "type": "item",
+      "sortid": 303,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_azul"
+    },
+    {
+      "name": "GuanteleteVerde",
+      "type": "item",
+      "sortid": 304,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_verde"
+    },
+    {
+      "name": "GuanteleteMorado",
+      "type": "item",
+      "sortid": 305,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_morado"
+    },
+    {
+      "name": "GuanteleteCyan",
+      "type": "item",
+      "sortid": 306,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_cyan"
+    },
+    {
+      "name": "GuanteleteNaranja",
+      "type": "item",
+      "sortid": 307,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_naranja"
+    },
+    {
+      "name": "GuanteleteAmarillo",
+      "type": "item",
+      "sortid": 308,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_amarillo"
+    },
+    {
+      "name": "GuanteleteRojo",
+      "type": "item",
+      "sortid": 309,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guantelete_rojo"
+    },
+    {
+      "name": "GorroNaruto",
+      "type": "item",
+      "sortid": 310,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gorro_naruto"
+    },
+    {
+      "name": "GorroKonan",
+      "type": "item",
+      "sortid": 311,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gorro_konan"
+    },
+    {
+      "name": "GafasTobi",
+      "type": "item",
+      "sortid": 312,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gafas_tobi"
+    },
+    {
+      "name": "GafasTobiSIqSi",
+      "type": "item",
+      "sortid": 313,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gafas_tobi_s_iq_si"
+    },
+    {
+      "name": "Tetsuzume",
+      "type": "item",
+      "sortid": 314,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tetsuzume"
+    },
+    {
+      "name": "Tanzutsu",
+      "type": "item",
+      "sortid": 315,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tanzutsu"
+    },
+    {
+      "name": "TanzutsuRojo",
+      "type": "item",
+      "sortid": 316,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tanzutsu_rojo"
+    },
+    {
+      "name": "StoneAxe",
+      "type": "item",
+      "sortid": 317,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_axe"
+    },
+    {
+      "name": "Garras",
+      "type": "item",
+      "sortid": 318,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "garras"
+    },
+    {
+      "name": "ShukakuPike",
+      "type": "item",
+      "sortid": 319,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shukaku_pike"
+    },
+    {
+      "name": "Ryoto",
+      "type": "item",
+      "sortid": 320,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ryoto"
+    },
+    {
+      "name": "Gato",
+      "type": "item",
+      "sortid": 321,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gato"
+    },
+    {
+      "name": "IronShovel5",
+      "type": "item",
+      "sortid": 322,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_shovel_5"
+    },
+    {
+      "name": "Golden",
+      "type": "item",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden"
+    },
+    {
+      "name": "Kouken1",
+      "type": "item",
+      "sortid": 324,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kouken_1"
+    },
+    {
+      "name": "Kouken2",
+      "type": "item",
+      "sortid": 325,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kouken_2"
+    },
+    {
+      "name": "Kyoso",
+      "type": "item",
+      "sortid": 326,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kyoso"
+    },
+    {
+      "name": "Pergamino1",
+      "type": "item",
+      "sortid": 327,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pergamino_1"
+    },
+    {
+      "name": "Pergamino2",
+      "type": "item",
+      "sortid": 328,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pergamino_2"
+    },
+    {
+      "name": "Pergamino3",
+      "type": "item",
+      "sortid": 329,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pergamino_3"
+    },
+    {
+      "name": "Pergamino4",
+      "type": "item",
+      "sortid": 330,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pergamino_4"
+    },
+    {
+      "name": "Minas",
+      "type": "item",
+      "sortid": 331,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "minas"
+    },
+    {
+      "name": "Parcelas",
+      "type": "item",
+      "sortid": 332,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "parcelas"
+    },
+    {
+      "name": "Raids",
+      "type": "item",
+      "sortid": 333,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raids"
+    },
+    {
+      "name": "Entrenamiento",
+      "type": "item",
+      "sortid": 334,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "entrenamiento"
+    },
+    {
+      "name": "Pvp",
+      "type": "item",
+      "sortid": 335,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pvp"
+    },
+    {
+      "name": "Pvplibre",
+      "type": "item",
+      "sortid": 336,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pvplibre"
+    },
+    {
+      "name": "Spawn",
+      "type": "item",
+      "sortid": 337,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spawn"
+    },
+    {
+      "name": "Mundosabio",
+      "type": "item",
+      "sortid": 338,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mundosabio"
+    },
+    {
+      "name": "Koth",
+      "type": "item",
+      "sortid": 339,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "koth"
+    },
+    {
+      "name": "Espadachin",
+      "type": "item",
+      "sortid": 340,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espadachin"
+    },
+    {
+      "name": "ArtistaMarcial",
+      "type": "item",
+      "sortid": 341,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "artista_marcial"
+    },
+    {
+      "name": "MedicoEstilo",
+      "type": "item",
+      "sortid": 342,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medico_estilo"
+    },
+    {
+      "name": "Marionetista",
+      "type": "item",
+      "sortid": 343,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "marionetista"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "bardo",
+      "files": [
+        "mix_10m05s-_audio-joiner.com_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "ost1",
+      "files": [
+        "onlymp3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost2",
+      "files": [
+        "onlymp3.to-naruto-jiraiya-s-theme-extended-hks_w22lbes-192k-1693258884"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost3",
+      "files": [
+        "onlymp3.to-neji-theme-song-obdr45wmyzk-192k-1693258905"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost4",
+      "files": [
+        "tomp3.cc-naruto-shippuden-ost-douten-heaven-shaking-event-hq_1"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost5",
+      "files": [
+        "onlymp3.to-naruto-ost-my-name-extended-jvyvgv2js4a-192k-1693258971"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost6",
+      "files": [
+        "tomp3.cc-naruto-sarutobis-themeextended"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost7",
+      "files": [
+        "tomp3.cc-naruto-shippuden-soundtrack-senya-original-itachis-theme-song-"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost8",
+      "files": [
+        "tomp3.cc-ripple-naruto-ost-3"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ost9",
+      "files": [
+        "tomp3.cc-naruto-shippuden-ost-ii-rising-dragon"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tayuya",
+      "files": [
+        "tomp3.cc_-_untitled_video"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "jiraiya",
+      "files": [
+        "el_iouu_de_jiraiya"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "compra",
+      "files": [
+        "el_shiummm_de_la_cuando_compras"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tlin",
+      "files": [
+        "el_tlin"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "perro",
+      "files": [
+        "perro_2"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "teletransportacion",
+      "files": [
+        "teletransportacion_de_hirashin_mejorada"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tum",
+      "files": [
+        "el_tum_bajo"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tumagudo",
+      "files": [
+        "el_tum_agudo"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "abrirpergamino",
+      "files": [
+        "abriendo_pergamino"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "gatsuga",
+      "files": [
+        "x2mate.com_-_gatsuga_320_kbps"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "tsuga",
+      "files": [
+        "x2mate.com_-_kishuninpo_320_kbps"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.marca_cielo_40boots.name": "Marca Tierra 4 0 Boots",
+      "item.waterpilar.name": "Waterpilar",
+      "item.koth.name": "Koth",
+      "item.key.name": "Key",
+      "item.armor_v_ipbody.name": "Armor Vip Body",
+      "item.marca_tayuya_20boots.name": "Marca Tayuya 2 0 Boots",
+      "item.ojochinoikehelmet.name": "Ketsuryugan Helmet",
+      "item.elitedel_pasede_batalla.name": "§7§lElite del Pase de Batalla",
+      "splash_potion.effect.marca_effect": "Splash Akimichi Effect",
+      "item.sabio_babosa.name": "Sabio Babosa",
+      "item.shuriken.name": "Shuriken",
+      "item.curse_mark.name": "§8§lMarca §5§lMaldita",
+      "item.katana_1.name": "Katana 1",
+      "item.sunshin_dodge.name": "Sunshin Dodge",
+      "item.storm_tier_2.name": "Storm Tier 2",
+      "item.interrogacion.name": "Interrogacion",
+      "item.clan_hyuga.name": "§7§lHyuga",
+      "tile.storm_mineral_3.name": "Storm Mineral 3",
+      "item.armor_v_iphelmet.name": "Armor Vip Helmet",
+      "item.katana_azul.name": "§l§3Filo de Neptuno",
+      "item.gafas_tobi.name": "Gafas Naruto",
+      "item.talisman_senju.name": "Talisman Senju",
+      "item.marca_tayuya_40helmet.name": "Marca Tierra 4 0 Helmet",
+      "entity.clon_aceite.name": "Clon Aceite",
+      "item.marca_tayuya_20helmet.name": "Marca Tayuya 2 0 Helmet",
+      "item.anasbody.name": "Alas Akimichi",
+      "subtitles.tlin": "",
+      "tile.black_blow.name": "Black Blow",
+      "item.marca_jirobo_20boots.name": "Marca Jirobo 2 0 Boots",
+      "item.son_goku.name": "Son Goku",
+      "item.katana_5.name": "Katana 1",
+      "item.guantelete_cyan.name": "§f§lGuantelete §b§lCyan",
+      "item.mascara_desgarrada.name": "§7§lMáscara Desgarrada",
+      "item.key_legendaria.name": "Key Legendaria",
+      "item.marca_jirobo_40legs.name": "Marca Tierra 4 0 Leggings",
+      "item.marca_tayuya_20legs.name": "Marca Tayuya 2 0 Leggings",
+      "item.pildora_verde.name": "Pildora Verde",
+      "item.sorarmorlegs.name": "Storm Armor 3 Leggings",
+      "item.sai.name": "Sai",
+      "item.cosmeticos.name": "Cosmeticos",
+      "item.sendadel_sabio.name": "§7§lSenda del Sabio",
+      "item.pergamino_2.name": "Pergamino 2",
+      "item.shukaku_pike.name": "Shukaku Pike",
+      "item.storm_armor_1boots.name": "Storm Armor 1 Boots",
+      "item.kokuo.name": "Kokuo",
+      "item.yata.name": "Yata",
+      "item.shirogane.name": "§7§lShirogane",
+      "item.karma_kawaki.name": "Karma Kawaki",
+      "item.sabiduriaasegurada.name": "§7§lSabiduria Asegurada",
+      "entity.panda.name": "Panda",
+      "item.gorro_naruto.name": "Gorro Naruto",
+      "item.arco_kidomaru.name": "§7§lArco Kidomaru",
+      "item.karma_boruto.name": "Karma Boruto",
+      "item.gorro_hutao.name": "§c§lGorro Hutao",
+      "item.talisman_4.name": "Talisman 4",
+      "item.jutsus_pergamino.name": "§7§lPergamino §b§lClan",
+      "item.logronaruto.name": "§7§lRasengan Vermilion",
+      "item.jiongu.name": "Jiongu",
+      "item.icon.name": "Icon",
+      "item.mundosabio.name": "Mundosabio",
+      "item.regalo_azul_2.name": "Regalo Azul 2",
+      "potion.effect.jashin_effect": "Akimichi Effect",
+      "item.kuramacoin.name": "Kuramacoin",
+      "item.sora_coin.name": "§7§lSora Coin",
+      "item.ojochinoikelegs.name": "Ojochinoike Leggings",
+      "item.mision_3.name": "Mision 3",
+      "item.aburame.name": "§7§lAburame",
+      "item.indra_icon.name": "Indra Icon",
+      "item.pergamino_gigante.name": "§7§lPergamino §c§lGigante",
+      "item.transf_hidanbody.name": "Transf Hidan Body",
+      "item.panza.name": "Panza",
+      "item.stone_axe.name": "Stone Axe",
+      "item.gafas_tobi_s_iq_si.name": "Gafas Tobi",
+      "item.minas.name": "Minas",
+      "item.hoshigaki.name": "§7§lHoshigaki",
+      "item.key_mitica.name": "Key Storm",
+      "item.kiri.name": "Kiri",
+      "item.dragon_barro.name": "Dragon Barro",
+      "item.chomei.name": "Chomei",
+      "tile.lampara.name": "Lampara",
+      "item.marca_tierra_20helmet.name": "Marca Tierra 2 0 Helmet",
+      "item.recargar_chakra.name": "Recargar Chakra",
+      "subtitles.teletransportacion": "",
+      "item.mision_2.name": "Mision 2",
+      "item.clan_kamizuru.name": "§7§lKamizuru",
+      "item.katana_10.name": "Katana 1",
+      "item.talisman_3.name": "§3§lTalisman Hoshigaki",
+      "item.marca_tierra_40helmet.name": "Marca Tierra 4 0 Helmet",
+      "item.koton.name": "§7§lKoton",
+      "item.espada_dragon.name": "Espada Dragon",
+      "item.boruto_armorhelmet.name": "Boruto Armor Helmet",
+      "item.body_blow.name": "Body Blow",
+      "tile.pilar.name": "Pilar",
+      "item.katana_negra.name": "§8§lNoctis",
+      "item.katsuyu.name": "Katsuyu",
+      "item.marca_cielo_40helmet.name": "Marca Tierra 4 0 Helmet",
+      "item.guantelete_morado.name": "§f§lGuantelete §5§lMorado",
+      "item.cazadorde_bestias.name": "§7§lCazador de Bestias",
+      "item.armor_v_iplegs.name": "Armor Vip Leggings",
+      "item.guadana_pase_1.name": "Guadana Pase 1",
+      "item.key_party.name": "Key Party",
+      "subtitles.abrirpergamino": "",
+      "item.anemo_spear.name": "§2Halcón de Jade",
+      "item.clan_iburi.name": "§7§lIburi",
+      "item.yamanaka.name": "§7§lYamanaka",
+      "item.sorarmorbody.name": "Storm Armor 3 Body",
+      "item.logroisshiki.name": "§7§lSupremacía Otsutsuki",
+      "item.kawaki_armorbody.name": "Kawaki Armor Body",
+      "item.key_storm.name": "Key Storm",
+      "item.marca_tierra_40legs.name": "Marca Tierra 4 0 Leggings",
+      "item.marca_tayuya_40body.name": "Marca Tierra 4 0 Body",
+      "item.duel.name": "Duel",
+      "item.kouken_2.name": "Kouken 2",
+      "item.rayo_scroll.name": "§7§lPergamino §e§lRayo",
+      "item.vigiadel_tiempo.name": "§7§lVigía del Tiempo",
+      "item.katana_2.name": "Katana 1",
+      "item.guantelete_azul.name": "§f§lGuantelete §3§lAzul",
+      "item.atras.name": "Atras",
+      "item.storm_armor_2body.name": "Storm Armor 2 Body",
+      "item.fuego.name": "§4§lFuego",
+      "item.sorarmorboots.name": "Storm Armor 3 Boots",
+      "item.roca.name": "§6§lRoca",
+      "item.gamabunta.name": "Gamabunta",
+      "item.anaslegs.name": "Anas Leggings",
+      "item.talisman_gaara.name": "Talisman Gaara",
+      "item.marca_jirobo_20helmet.name": "Marca Jirobo 2 0 Helmet",
+      "item.dungeon.name": "Dungeon",
+      "item.espadad_pase_1.name": "Espadad Pase 1",
+      "item.talisman_yuki.name": "Talisman Yuki",
+      "item.katana_4.name": "Katana 1",
+      "tile.tambor.name": "Tambor",
+      "entity.toro.name": "Toro",
+      "item.key_senjutsu.name": "Key Senjutsu",
+      "item.shinigami.name": "Shinigami",
+      "item.marca_tayuya_40boots.name": "Marca Tierra 4 0 Boots",
+      "item.mision_4.name": "Mision 4",
+      "item.marca_kidomaru_40boots.name": "Marca Kidomaru 4 0 Boots",
+      "subtitles.jiraiya": "",
+      "subtitles.perro": "",
+      "item.marca_tierra_20legs.name": "Marca Tierra 2 0 Leggings",
+      "item.marca_ukon_20boots.name": "Marca Ukon 2 0 Boots",
+      "item.armor_v_ipboots.name": "Armor Vip Boots",
+      "lingering_potion.effect.marca_effect": "Lingering Akimichi Effect",
+      "item.akimichi.name": "§7§lAkimichi",
+      "item.katana_verde.name": "§l§2Zephyr",
+      "item.clon_elemental.name": "Clon Elemental",
+      "subtitles.tumagudo": "",
+      "item.mejora.name": "Mejora",
+      "item.talisman_yotsuki.name": "Talisman Yotsuki",
+      "item.ultimate_hokage.name": "Ultimate Hokage",
+      "item.tierra_scroll.name": "§7§lPergamino §6§lTierra",
+      "item.medico_estilo.name": "§a§lMédico",
+      "subtitles.tayuya": "",
+      "item.anasboots.name": "Anas Boots",
+      "item.ultimate_raikage.name": "Ultimate Raikage",
+      "item.shukaku.name": "Shukaku",
+      "item.tifon_release.name": "§7§lTifón Release",
+      "item.guantelete_rojo.name": "§f§lGuantelete §c§lRojo",
+      "item.lider_entre_kages.name": "§7§lLider entre Kages",
+      "item.pildora_roja.name": "Pildora Roja",
+      "potion.effect.akimichi_effect": "Akimichi Effect",
+      "item.shoton.name": "§d§lShoton",
+      "item.sunshin.name": "Sunshin",
+      "item.guantelete_amarillo.name": "§f§lGuantelete §e§lAmarillo",
+      "item.katana_roja.name": "§l§4Fuego Eterno",
+      "item.storm_craft.name": "Storm Craft",
+      "item.marca_jirobo_20legs.name": "Marca Jirobo 2 0 Leggings",
+      "tipped_arrow.effect.jashin_effect": "Arrow of Akimichi Effect",
+      "item.dark_release.name": "§8§lMeiton",
+      "item.guantelete_verde.name": "§f§lGuantelete §a§lVerde",
+      "item.diosdel_combate.name": "§7§lDios del Combate",
+      "item.gato.name": "Gato",
+      "lingering_potion.effect.akimichi_effect": "Lingering Akimichi Effect",
+      "subtitles.ost2": "",
+      "subtitles.ost1": "",
+      "subtitles.ost4": "",
+      "subtitles.ost3": "",
+      "item.transf_hidanboots.name": "Transf Hidan Boots",
+      "item.bisturi.name": "Bisturi",
+      "subtitles.ost9": "",
+      "subtitles.ost6": "",
+      "subtitles.ost5": "",
+      "subtitles.ost8": "",
+      "item.ojochinoikeboots.name": "Ojochinoike Boots",
+      "subtitles.ost7": "",
+      "item.garras.name": "Garras",
+      "item.regalo_rojo_2.name": "Regalo Rojo 2",
+      "item.asuraboots.name": "Asura Boots",
+      "item.artista_marcial.name": "§c§lArtista Marcial",
+      "item.kawaki_armorlegs.name": "Boruto Armor Leggings",
+      "item.storm_armor_1helmet.name": "Storm Armor 1 Helmet",
+      "potion.effect.marca_effect": "Akimichi Effect",
+      "item.marca_jirobo_40body.name": "Marca Tierra 4 0 Body",
+      "item.logros.name": "Logros",
+      "item.fire_spear.name": "§cBáculo de Homa",
+      "item.key_elementos.name": "Key Elemento",
+      "item.marca_tayuya_40legs.name": "Marca Tierra 4 0 Leggings",
+      "item.izanagi.name": "Izanagi",
+      "item.marca_ukon_40helmet.name": "Marca Tierra 4 0 Helmet",
+      "item.eternos_companeros.name": "§7§lEternos Compañeros",
+      "item.pegamino_esoterico.name": "§7§lPergamino §d§lEsoterico",
+      "tile.pajaros.name": "Pajaros",
+      "item.shuriken_fuego.name": "Shuriken Fuego",
+      "item.marca_cielo_20boots.name": "Marca Cielo 2 0 Boots",
+      "item.katana_9.name": "Katana 1",
+      "item.marca_tierra_40body.name": "Marca Tierra 4 0 Body",
+      "item.pergamino_4.name": "Pergamino 4",
+      "item.espadachin.name": "§3§lEspadachín",
+      "item.kouken_1.name": "Kouken 1",
+      "item.kawaki.name": "§c§lKarma Kawaki",
+      "item.cambio_de_clan.name": "Cambio De Clan",
+      "item.battlepass.name": "Battlepass",
+      "item.pua_celestial.name": "§bPúa Celestial",
+      "item.storm_armor_2boots.name": "Storm Armor 2 Boots",
+      "item.marca_tierra_20boots.name": "Marca Tierra 2 0 Boots",
+      "tile.crate_pase_1.name": "Crate Pase 1",
+      "item.cambio_kekkei.name": "Cambio Kekkei",
+      "effect.jashin_effect": "Jashin Effect",
+      "item.viajerodel_mundo_ninja.name": "§7§lViajero del Mundo Ninja",
+      "item.key_armas.name": "Key Armas",
+      "item.kumo.name": "Kumo",
+      "item.mazo.name": "Mazo",
+      "item.isobu.name": "Isobu",
+      "item.daga_pase_1.name": "Daga Pase 1",
+      "item.xp.name": "XP",
+      "splash_potion.effect.jashin_effect": "Splash Akimichi Effect",
+      "item.storm_armor_1body.name": "Storm Armor 1 Body",
+      "item.entrenamiento.name": "Entrenamiento",
+      "subtitles.tsuga": "",
+      "item.arena_maestra_i.name": "§7§lArena Maestra I",
+      "item.velocidad_release.name": "§e§lJinton",
+      "item.transf_hidanhelmet.name": "Transf Hidan Helmet",
+      "item.taijutsu.name": "Taijutsu",
+      "item.talisman_2.name": "§7§lTalisman Namikaze",
+      "item.ojochinoikebody.name": "Ojochinoike Body",
+      "item.katana_naranja.name": "§l§6Roca de la Eternidad",
+      "subtitles.bardo": "",
+      "item.storm_armor_2legs.name": "Storm Armor 2 Leggings",
+      "item.mentede_genio.name": "§7§lMente de Genio",
+      "tile.storm_mineral_1.name": "Storm Mineral 1",
+      "item.key_clan.name": "Key Clan",
+      "item.mision_1.name": "Mision 1",
+      "tile.crate.name": "Crate",
+      "item.clan_kaguya.name": "§7§lKaguya",
+      "item.scroll.name": "Scroll",
+      "item.amegakure.name": "Amegakure",
+      "item.marca_cielo_20body.name": "Marca Cielo 2 0 Body",
+      "splash_potion.effect.akimichi_effect": "Splash Akimichi Effect",
+      "item.tsuchigumo.name": "§7§lTsuchigumo",
+      "lingering_potion.effect.jashin_effect": "Lingering Akimichi Effect",
+      "item.chunin.name": "Chunin",
+      "item.iron_shovel_5.name": "Iron Shovel 5",
+      "item.marca_kidomaru_40helmet.name": "Marca Kidomaru 4 0 Helmet",
+      "item.marca_kidomaru_20helmet.name": "Marca Kidomaru 2 0 Helmet",
+      "item.marionetista.name": "§d§lMarionetista",
+      "item.marca_ukon_40body.name": "Marca Tierra 4 0 Body",
+      "item.estudiante_ejemplar.name": "§7§lEstudiante Ejemplar",
+      "item.warp.name": "Warp",
+      "item.genjutsu.name": "Genjutsu",
+      "item.amuleto_primer_hokage.name": "Amuleto Primer Hokage",
+      "item.marca_jirobo_20body.name": "Marca Jirobo 2 0 Body",
+      "item.kyoso.name": "Kyoso",
+      "item.marca_ukon_40legs.name": "Marca Tierra 4 0 Leggings",
+      "item.marca_tierra_20body.name": "Marca Tierra 2 0 Body",
+      "item.key_kekkei.name": "Key Kekkei",
+      "item.agua.name": "§b§lAgua",
+      "item.lightning_spear.name": "§dLuz del Segador",
+      "item.katana_11.name": "Katana 1",
+      "item.tetsuzume.name": "Tetsuzume",
+      "item.parcelas.name": "Parcelas",
+      "item.guantelete_naranja.name": "§f§lGuantelete §6§lNaranja",
+      "item.boruto_armorbody.name": "Boruto Armor Body",
+      "item.principiosdelarte_ninja.name": "§7§lPrincipios del Arte Ninja",
+      "item.ryoto.name": "Ryoto",
+      "item.boruto.name": "§3§lKarma Boruto",
+      "item.transf_hidanlegs.name": "Transf Hidan Leggings",
+      "tile.katana_stand.name": "Katana Stand",
+      "tile.katana_stand_2.name": "Katana Stand 2",
+      "item.cambio_elemento.name": "Cambio Elemento",
+      "item.key_prodigio.name": "Key Prodigio",
+      "item.ultimate_mizukage.name": "Ultimate Mizukage",
+      "item.gorro_konan.name": "Gorro Konan",
+      "item.marca_kidomaru_40legs.name": "Marca Kidomaru 4 0 Leggings",
+      "item.akatsuki.name": "Akatsuki",
+      "item.regalo_azul_1.name": "Regalo Azul 1",
+      "item.katana_6.name": "Katana 1",
+      "effect.marca_effect": "Marca Effect",
+      "item.shichiseiken.name": "Shichiseiken",
+      "item.marca_tayuya_20body.name": "Marca Tayuya 2 0 Body",
+      "entity.rika.name": "Rika",
+      "tile.storm_mineral_2.name": "Storm Mineral 2",
+      "item.storm_armor_2helmet.name": "Storm Armor 2 Helmet",
+      "item.storm_tier_3.name": "Storm Tier 3",
+      "item.rayo.name": "§e§lRayo",
+      "item.suna.name": "Suna",
+      "item.genin.name": "Genin",
+      "item.clan_hidan.name": "§7§lJashin",
+      "item.regalo_rojo_1.name": "Regalo Rojo 1",
+      "item.kabuto.name": "Kabuto",
+      "item.greatbreach.name": "Greatbreach",
+      "item.tanzutsu.name": "§3§lTanzutsu",
+      "item.marca_cielo_20helmet.name": "Marca Cielo 2 0 Helmet",
+      "entity.pajaro.name": "Pajaro",
+      "item.marca_kidomaru_40body.name": "Marca Kidomaru 4 0 Body",
+      "item.jounin.name": "Jounin",
+      "item.fuego_scroll.name": "§7§lPergamino §c§lFuego",
+      "item.kawaki_armorboots.name": "Boruto Armor Boots",
+      "item.saiken.name": "Saiken",
+      "subtitles.gatsuga": "",
+      "subtitles.compra": "",
+      "item.espadade_zanma.name": "§8Espadade Zanma",
+      "item.talisman_1.name": "Talisman 1",
+      "subtitles.tum": "",
+      "item.ultimate_kazekage.name": "Ultimate Kazekage",
+      "item.boruto_armorboots.name": "Boruto Armor Boots",
+      "item.pergamino.name": "Pergamino",
+      "item.marca_jirobo_40boots.name": "Marca Tierra 4 0 Boots",
+      "item.agua_scroll.name": "§7§lPergamino §3§lAgua",
+      "item.storm_tier_1.name": "Storm Tier 1",
+      "item.ninjutsu.name": "Ninjutsu",
+      "item.uzumaki.name": "§7§lUzumaki",
+      "item.flauta_de_tayuya.name": "Flauta De Tayuya",
+      "item.arena_maestrall.name": "§7§lArena Maestra II",
+      "item.asura_icon.name": "Asura Icon",
+      "item.raids.name": "Raids",
+      "item.pergamino_3.name": "Pergamino 3",
+      "item.nara.name": "§7§lNara",
+      "item.marca_kidomaru_20boots.name": "Marca Kidomaru 2 0 Boots",
+      "item.clan_senju.name": "§7§lSenju",
+      "item.tanzutsu_rojo.name": "§c§lTanzutsu",
+      "item.boruto_armorlegs.name": "Boruto Armor Leggings",
+      "item.namikaze_unico.name": "Namikaze Unico",
+      "tipped_arrow.effect.marca_effect": "Arrow of Akimichi Effect",
+      "item.marca_jirobo_40helmet.name": "Marca Tierra 4 0 Helmet",
+      "item.asurahelmet.name": "Asura",
+      "item.lee.name": "§7§lLee",
+      "item.kawaki_armorhelmet.name": "Kawaki Armor Helmet",
+      "item.kamiton.name": "§f§lKamiton",
+      "item.manda.name": "Manda",
+      "item.noseeee.name": "Recargar Chakra 2",
+      "item.ultimate_tsuchikage.name": "Ultimate Tsuchikage",
+      "item.marca_cielo_40legs.name": "Marca Tierra 4 0 Leggings",
+      "item.libro_kakashi.name": "Libro Kakashi",
+      "item.spawn.name": "Spawn",
+      "item.marca_tierra_40boots.name": "Marca Tierra 4 0 Boots",
+      "item.sabio_serpiente.name": "Sabio Serpiente",
+      "item.key_aldea.name": "Key Aldea",
+      "entity.c_2.name": "C 2",
+      "item.relampago_amarillo.name": "§7§lRelámpago Amarillo",
+      "item.clanryu.name": "§7§lRyu",
+      "item.sabio_sapo.name": "Sabio Sapo",
+      "tile.altar.name": "Altar",
+      "item.iwa.name": "Iwa",
+      "item.clan_uchiha.name": "§7§lUchiha",
+      "item.pvplibre.name": "Pvplibre",
+      "item.katana_8.name": "Katana 1",
+      "item.marca_ukon_40boots.name": "Marca Tierra 4 0 Boots",
+      "item.bashosen.name": "Bashosen",
+      "item.golden.name": "Golden",
+      "item.mision_5.name": "Mision 5",
+      "tipped_arrow.effect.akimichi_effect": "Arrow of Akimichi Effect",
+      "item.viento.name": "§a§lViento",
+      "item.medico.name": "§7§lMedico",
+      "item.anashelmet.name": "Anas Helmet",
+      "item.mascara_xiao.name": "§b§lMascara Xiao",
+      "item.kurama.name": "Kurama",
+      "item.asurabody.name": "Asura Body",
+      "item.acido_release.name": "§7§lAcido Release",
+      "item.talisman_maldito.name": "Talisman Maldito",
+      "item.cosechadorde_almas.name": "§7§lCosechador de Almas",
+      "item.asuralegs.name": "Asura Leggings",
+      "item.viento_scroll.name": "§7§lPergamino §a§lViento",
+      "item.katana_amarilla.name": "§l§eThunderstrike",
+      "item.alianza_ancestral.name": "§7§lAlianza Ancestral",
+      "item.demonio_y_angel.name": "§7§lDemonio Y Angel",
+      "item.marca_kidomaru_20legs.name": "Marca Kidomaru 2 0 Leggings",
+      "item.marca_cielo_20legs.name": "Marca Cielo 2 0 Leggings",
+      "item.marca_ukon_20legs.name": "Marca Ukon 2 0 Leggings",
+      "item.pergamino_1.name": "Pergamino 1",
+      "item.jutsu_kakuzu.name": "Jutsu Kakuzu",
+      "item.matatabi.name": "Matatabi",
+      "item.achibi.name": "Achibi",
+      "item.pildora_amarilla.name": "Pildora Amarilla",
+      "item.pvp.name": "Pvp",
+      "item.sombra_veloz.name": "§7§lSombra Veloz",
+      "entity.invocacion_toruga.name": "Invocacion Tortuga",
+      "itemGroup.tabmod_sora": "Mod Sora",
+      "item.marca_cielo_40body.name": "Marca Tierra 4 0 Body",
+      "item.key_pase_1.name": "Key §dCursed §9Harmony",
+      "item.marca_ukon_20body.name": "Marca Ukon 2 0 Body",
+      "item.aldeas.name": "Aldeas",
+      "item.katana_3.name": "Katana 1",
+      "tile.cofre_dinero.name": "Cofre Dinero",
+      "effect.akimichi_effect": "Akimichi Effect",
+      "item.marca_ukon_20helmet.name": "Marca Ukon 2 0 Helmet",
+      "item.marca_kidomaru_20body.name": "Marca Kidomaru 2 0 Body",
+      "item.flamelight.name": "Flamelight",
+      "item.sorarmorhelmet.name": "Storm Armor 3 Helmet",
+      "item.storm_armor_1legs.name": "Storm Armor 1 Leggings",
+      "item.konoha.name": "Konoha",
+      "item.key_vote.name": "Key Vote"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "modsora",
+    "modName": "modsora",
+    "version": "1.0.0",
+    "author": "jg200, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.modsora",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

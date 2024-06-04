@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "modsora:altar"
+    },
+    "facing=north": {
+      "model": "modsora:altar"
+    },
+    "facing=east": {
+      "model": "modsora:altar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "modsora:altar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "modsora:altar",
+      "y": 270
+    }
+  }
+}

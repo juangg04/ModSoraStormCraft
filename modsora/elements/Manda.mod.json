@@ -1,0 +1,33 @@
+{
+  "_fv": 18,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "manda-vector-design-snake-icon-famous-naruto-anime-belonging-to-one-three-legendary-sannin-you-must--transformed-removebg-preview",
+    "customModelName": "Normal",
+    "name": "Manda",
+    "rarity": "COMMON",
+    "creativeTab": {
+      "value": "CUSTOM:ModSora"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64
+  }
+}

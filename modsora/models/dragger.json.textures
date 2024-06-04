@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pepe",
+        "1": "dagaanimacion2",
+        "2": "dagaanimacion2"
+      },
+      "name": "default"
+    }
+  }
+}

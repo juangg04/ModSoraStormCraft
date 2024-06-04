@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "modsora:blocks/rubyore",
+    "up": "modsora:blocks/rubyore",
+    "north": "modsora:blocks/rubyore",
+    "east": "modsora:blocks/rubyore",
+    "south": "modsora:blocks/rubyore",
+    "west": "modsora:blocks/rubyore",
+    "particle": "modsora:blocks/rubyore"
+  }
+}

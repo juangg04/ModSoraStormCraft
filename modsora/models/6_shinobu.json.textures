@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "katana_1",
+        "1": "shinobu_1",
+        "2": "shinobu_2",
+        "3": "shinobu_3",
+        "4": "shinobu_4"
+      },
+      "name": "default"
+    }
+  }
+}

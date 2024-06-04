@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "toffy_crate_cinder"
+      },
+      "name": "default"
+    }
+  }
+}
